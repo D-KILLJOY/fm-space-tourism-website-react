@@ -1,27 +1,25 @@
-@use "../globals/boilerplate" as b ;
-
+@use "../globals/boilerplate" as b;
 
 .home {
-    min-height:100vh ;
-    background: url("../assets/home/background-home-mobile.jpg") center/cover no-repeat;
+    min-height: 100vh;
+    background: url("../../assets/home/background-home-mobile.jpg") center/cover
+        no-repeat;
 
-    @media (min-width:720px) {
-        background: url("../../assets/home/background-home-tablet.jpg") center/cover no-repeat;
+    @media (min-width: 45rem) {
+        background: url("../../assets/home/background-home-tablet.jpg")
+            center/cover no-repeat;
     }
 
-    @media (min-width:990px) {
-        background: url("../../assets/home/background-home-desktop.jpg") center/cover no-repeat;
+    @media (min-width: 60rem) {
+        background: url("../../assets/home/background-home-desktop.jpg")
+            center/cover no-repeat;
     }
-
-    
 }
-
 
 .main__container {
     padding: 2.4rem;
 
-
-    @media (min-width:720px) {
+    @media (min-width: 45rem) {
         width: 100%;
         padding: 12.8rem 4rem;
         display: flex;
@@ -30,7 +28,7 @@
         flex-direction: column;
     }
 
-    @media (min-width:1220px) {
+    @media (min-width: 76rem) {
         flex-direction: row;
         gap: 3rem;
         align-items: flex-end;
@@ -43,14 +41,13 @@
     flex-direction: column;
     gap: 2.4rem;
 
-    @media (min-width:720px) {
+    @media (min-width: 45rem) {
         width: 51.2rem;
     }
 
-    @media (min-width:1220px) {
+    @media (min-width: 76rem) {
         width: 54rem;
     }
-    
 }
 
 .desc__ques {
@@ -61,16 +58,15 @@
     font-size: 1.6rem;
     text-transform: uppercase;
 
-    @media (min-width:720px) {
+    @media (min-width: 45rem) {
         font-size: 2.4rem;
     }
 
-    @media (min-width:1220px) {
-    text-align: left;
-    font-size: 2.8rem;
+    @media (min-width: 76rem) {
+        text-align: left;
+        font-size: 2.8rem;
     }
 }
-
 
 .main__text {
     font-family: b.$Bellefair;
@@ -80,16 +76,15 @@
     text-align: center;
     font-weight: 400;
 
-    @media (min-width:720px) {
+    @media (min-width: 45rem) {
         font-size: 12.4rem;
     }
 
-    @media (min-width:1220px) {
+    @media (min-width: 76rem) {
         font-size: 14.4rem;
         text-align: left;
     }
 }
-
 
 .main__desc {
     font-family: b.$Barlow-400;
@@ -98,31 +93,26 @@
     font-size: 1.5rem;
     line-height: 1.8em;
 
-    @media (min-width:720px) {
+    @media (min-width: 45rem) {
         font-size: 1.6rem;
     }
 
-    @media (min-width:1220px) {
+    @media (min-width: 76rem) {
         font-size: 1.8rem;
         text-align: left;
     }
 }
-
 
 .link__con {
     display: grid;
     place-content: center;
     height: 38.3rem;
 
-    @media (min-width:1220px) {
+    @media (min-width: 76rem) {
         height: 27.2rem;
         width: 54rem;
         justify-content: flex-end;
-
-        
     }
-
-
 }
 
 .exp__cir {
@@ -152,26 +142,24 @@
         z-index: -1;
         transition: 0.5s;
 
-        @media (min-width:1220px) {
-        width: 165%;
-        height: 165%;
+        @media (min-width: 76rem) {
+            width: 165%;
+            height: 165%;
+        }
     }
-    }
-    
+
     &:hover {
-        color:hsla(230, 33%, 7%, 0.5) ;
+        color: hsla(230, 33%, 7%, 0.5);
         transition: 0.5s;
 
         &::after {
             opacity: 0.1;
         }
-    }    
+    }
 
-
-    @media (min-width:720px) {
+    @media (min-width: 45rem) {
         width: 27.2rem;
         height: 27.2rem;
         font-size: 3.2rem;
-
     }
 }

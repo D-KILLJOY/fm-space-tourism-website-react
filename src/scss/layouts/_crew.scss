@@ -1,20 +1,20 @@
-@use "../globals/boilerplate" as b ;
-
+@use "../globals/boilerplate" as b;
 
 .crew {
-    min-height:100vh ;
+    min-height: 100vh;
 
-    background: url("../assets/crew/background-crew-mobile.jpg") center/cover no-repeat;
+    background: url("../../assets/crew/background-crew-mobile.jpg") center/cover
+        no-repeat;
 
-    @media (min-width:720px) {
-        background: url("../assets/crew/background-crew-tablet.jpg") center/cover no-repeat;
+    @media (min-width: 45rem) {
+        background: url("../../assets/crew/background-crew-tablet.jpg")
+            center/cover no-repeat;
     }
 
-    @media (min-width:990px) {
-        background: url("../assets/crew/background-crew-desktop.jpg") center/cover no-repeat;
+    @media (min-width: 60rem) {
+        background: url("../../assets/crew/background-crew-desktop.jpg")
+            center/cover no-repeat;
     }
-
-    
 }
 
 .crew__main__con {
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
 
-    @media (min-width:720px) {
+    @media (min-width: 45rem) {
         padding: 4rem;
     }
 }
@@ -33,73 +33,68 @@
     gap: 2.4rem;
     width: 100%;
 
-        @media (min-width:1220px) {
+    @media (min-width: 76rem) {
         max-width: 111rem;
- 
     }
-
 }
 
 .crew__dets {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
-    
-    @media (min-width:720px) {
+
+    @media (min-width: 45rem) {
         width: 51.2rem;
         margin-inline: auto;
     }
-    
-    @media (min-width:1220px) {
+
+    @media (min-width: 76rem) {
         width: 100%;
         flex-direction: row;
         gap: 3.2rem;
-    
     }
 }
 
 .crew__detail {
-    padding-top: 4rem;
+    padding-block-start: 4rem;
     width: 100%;
     max-width: 53.9rem;
 
-     @media (min-width:1220px) {
-        padding-top: 0;
-    
+    @media (min-width: 76rem) {
+        padding-block-start: 0;
     }
 }
 
 .crew__det {
-    margin-bottom:2.44rem ;
+    margin-block-end: 2.44rem;
 
-    @media (min-width:1220px) {
-        height:67.1rem ;
-        margin-bottom:4rem ;
+    @media (min-width: 76rem) {
+        height: 67.1rem;
+        margin-block-end: 4rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
     }
 }
 
 .crew__position {
-    font-size:1.8rem ;
-    margin-bottom: .8rem;
+    font-size: 1.8rem;
+    margin-block-end: 0.8rem;
     font-family: b.$Bellefair;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     color: b.$white;
-    opacity: .5;
+    opacity: 0.5;
 
-    @media (min-width:720px) {
-    font-size: 2.4rem;
-    margin-bottom: 1.6rem;
+    @media (min-width: 45rem) {
+        font-size: 2.4rem;
+        margin-block-end: 1.6rem;
     }
 
-    @media (min-width:1220px) {
-    font-size: 3.2rem;
-    text-align: left;
+    @media (min-width: 76rem) {
+        font-size: 3.2rem;
+        text-align: left;
     }
 }
 
@@ -110,17 +105,16 @@
     text-transform: uppercase;
     font-family: b.$Bellefair;
     font-weight: 400;
-    margin-bottom: 2.4rem;
+    margin-block-end: 2.4rem;
 
-    @media (min-width:720px) {
-    font-size: 4rem;
+    @media (min-width: 45rem) {
+        font-size: 4rem;
     }
 
-    @media (min-width:1220px) {
-    font-size: 5.6rem;
-    text-align: left;
+    @media (min-width: 76rem) {
+        font-size: 5.6rem;
+        text-align: left;
     }
-
 }
 
 .crew__bio {
@@ -131,15 +125,14 @@
     color: b.$blue-300;
     height: 16.2rem;
 
-    @media (min-width:720px) {
-    font-size: 1.6rem;
+    @media (min-width: 45rem) {
+        font-size: 1.6rem;
     }
 
-    @media (min-width:1220px) {
-    font-size: 1.8rem;
-    text-align: left;
+    @media (min-width: 76rem) {
+        font-size: 1.8rem;
+        text-align: left;
     }
-
 }
 
 .crew__nav__con {
@@ -147,39 +140,35 @@
     gap: 1.6rem;
     justify-content: center;
 
-    @media (min-width:1220px) {
-    height: 6.3rem;
-    gap:4rem ;
-    justify-content: flex-start;
+    @media (min-width: 76rem) {
+        height: 6.3rem;
+        gap: 4rem;
+        justify-content: flex-start;
     }
 }
 
 .crew__nav__item {
     width: 1rem;
     height: 1rem;
-    background-color:#fff ;
+    background-color: #fff;
     opacity: 17.44%;
     border-radius: 50%;
 
-
     &:hover {
         cursor: pointer;
-        background-color:#fff ;
+        background-color: #fff;
         opacity: 50.01%;
     }
 
     &--active {
-    background-color: #fff;
-    opacity: 100%;
+        background-color: #fff;
+        opacity: 100%;
     }
 
-    @media (min-width:1220px) {
-    width: 1.5rem;
-    height: 1.5rem;
+    @media (min-width: 76rem) {
+        width: 1.5rem;
+        height: 1.5rem;
     }
-
-
-
 }
 
 .crew__img__con {
@@ -190,30 +179,26 @@
     max-width: 53.9rem;
     position: relative;
 
-    
-    @media (min-width:720px) {
-        padding:0 6rem ;
-    
+    @media (min-width: 45rem) {
+        padding: 0 6rem;
     }
-    
-    @media (min-width:1220px) {
-        padding:0 0 0 4rem ;
-    
+
+    @media (min-width: 76rem) {
+        padding: 0 0 0 4rem;
     }
 
     &::after {
         content: " ";
         position: absolute;
         width: 100%;
-        bottom: -1rem ;
+        bottom: -1rem;
         height: 1rem;
         background-color: b.$blue-900;
         box-shadow: 0px -10px 25px 23px b.$blue-900;
-        -webkit-box-shadow:0px -10px 25px 23px b.$blue-900;
-        -moz-box-shadow:0px -10px 25px 23px b.$blue-900;
+        -webkit-box-shadow: 0px -10px 25px 23px b.$blue-900;
+        -moz-box-shadow: 0px -10px 25px 23px b.$blue-900;
         pointer-events: none;
         z-index: 9;
-    
     }
 }
 
@@ -222,11 +207,8 @@
     padding-block: 1.5rem;
     position: relative;
     z-index: 1;
-    
-    @media (min-width:720px) {
-        width: unset;
-    
-    }
-    
 
+    @media (min-width: 45rem) {
+        width: unset;
+    }
 }
