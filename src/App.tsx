@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation } from "react-router";
 import Home from "./Pages/Home";
-import Destination from "./Pages/destination";
-import Crew from "./Pages/crew";
+import Destination from "./Pages/Destination";
+import Crew from "./Pages/Crew";
 import Technology from "./Pages/Technology";
 
 import { useEffect } from "react";
