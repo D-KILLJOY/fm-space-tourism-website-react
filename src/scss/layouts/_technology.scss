@@ -141,6 +141,11 @@
     place-content: center;
     transition: border-color 0.5s;
 
+    @media (prefers-reduced-motion: reduce) {
+        .tech__nav__item {
+            transition: none;
+        }
+    }
     &:hover {
         cursor: pointer;
         transition: 0.5s;

@@ -38,7 +38,7 @@
     font-size: 1.6rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #fff;
+    color: b.$white;
     text-align: center;
 
     @media (min-width: 45rem) {
@@ -147,11 +147,11 @@
     font-family: b.$Barlow-Condensed-400;
     font-size: 1.4rem;
     position: relative;
-    padding-bottom: 0.8rem;
+    padding-block-end: 0.8rem;
 
     @media (min-width: 45rem) {
         font-size: 1.6rem;
-        letter-spacing: 2px;
+        letter-spacing: 0.2rem;
     }
 
     &:hover {
@@ -173,7 +173,7 @@
             content: " ";
             width: 100%;
             height: 0.3rem;
-            background-color: #fff;
+            background-color: b.$white;
             position: absolute;
             bottom: 0;
             left: 0;
@@ -206,7 +206,7 @@
     font-size: 1.5rem;
     text-align: center;
     line-height: 1.8;
-    padding-bottom: 2.4rem;
+    padding-block-end: 2.4rem;
     margin-block-end: 2.4rem;
     border-block-end: 1px solid #9797975e;
 
@@ -218,7 +218,7 @@
         font-size: 1.8rem;
         text-align: left;
         margin-block-end: 4rem;
-        padding-bottom: 4rem;
+        padding-block-end: 4rem;
     }
 }
 
@@ -246,7 +246,7 @@
     font-family: b.$Barlow-Condensed-400;
     margin-block-end: 1.2rem;
     color: b.$blue-300;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     font-size: 1.4rem;
     text-transform: uppercase;
     text-align: center;

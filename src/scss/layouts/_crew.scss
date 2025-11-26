@@ -150,18 +150,18 @@
 .crew__nav__item {
     width: 1rem;
     height: 1rem;
-    background-color: #fff;
+    background-color: b.$white;
     opacity: 17.44%;
     border-radius: 50%;
 
     &:hover {
         cursor: pointer;
-        background-color: #fff;
+        background-color: b.$white;
         opacity: 50.01%;
     }
 
     &--active {
-        background-color: #fff;
+        background-color: b.$white;
         opacity: 100%;
     }
 
