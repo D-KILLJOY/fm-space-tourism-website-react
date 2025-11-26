@@ -141,11 +141,6 @@
     place-content: center;
     transition: border-color 0.5s;
 
-    @media (prefers-reduced-motion: reduce) {
-        .tech__nav__item {
-            transition: none;
-        }
-    }
     &:hover {
         cursor: pointer;
         transition: 0.5s;
@@ -167,6 +162,16 @@
         width: 8rem;
         height: 8rem;
         font-size: 3.2rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tech__nav__item {
+        transition: none;
+
+        &:hover {
+            transition: none;
+        }
     }
 }
 
