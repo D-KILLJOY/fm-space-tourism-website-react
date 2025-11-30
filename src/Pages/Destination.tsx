@@ -53,33 +53,36 @@ function Destination() {
                                                 </li>
                                             ))}
                                         </ul>
-                                    </nav>{" "}
+                                    </nav>
+
+                                    <article className="dest__loc">
+                                        <h1 className="loc__header">
+                                            {destination.name}
+                                        </h1>
+                                        <p className="loc__desc">
+                                            {destination.description}
+                                        </p>
+                                    </article>
+                                    <article className="dest__specs">
+                                        <div className="spec">
+                                            <p className="spec__text">
+                                                Avg. distance
+                                            </p>
+                                            <h2 className="spec__val">
+                                                {destination.distance}
+                                            </h2>
+                                        </div>
+                                        <div className="spec">
+                                            <p className="spec__text">
+                                                Est. travel time
+                                            </p>
+                                            <h2 className="spec__val">
+                                                {destination.travel}
+                                            </h2>
+                                        </div>
+                                    </article>
                                 </article>
                             </section>
-                            <article className="dest__loc">
-                                <h1 className="loc__header">
-                                    {destination.name}
-                                </h1>
-                                <p className="loc__desc">
-                                    {destination.description}
-                                </p>
-                            </article>
-                            <article className="dest__specs">
-                                <div className="spec">
-                                    <p className="spec__text">Avg. distance</p>
-                                    <h2 className="spec__val">
-                                        {destination.distance}
-                                    </h2>
-                                </div>
-                                <div className="spec">
-                                    <p className="spec__text">
-                                        Est. travel time
-                                    </p>
-                                    <h2 className="spec__val">
-                                        {destination.travel}
-                                    </h2>
-                                </div>
-                            </article>
                         </section>
                     )
             )}

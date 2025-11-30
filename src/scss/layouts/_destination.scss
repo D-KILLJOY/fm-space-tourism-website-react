@@ -116,6 +116,8 @@
 }
 
 .dest__desc {
+    display: flex;
+    flex-direction: column;
     @media (min-width: 45rem) {
         width: 51.4rem;
         height: 30rem;
