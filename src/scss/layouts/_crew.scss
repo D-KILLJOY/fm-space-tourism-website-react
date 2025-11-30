@@ -3,17 +3,16 @@
 .crew {
     min-height: 100vh;
 
-    background: url("../../assets/crew/background-crew-mobile.jpg") center/cover
-        no-repeat;
+    background: url("/crew/background-crew-mobile.jpg") center/cover no-repeat;
 
     @media (min-width: 45rem) {
-        background: url("../../assets/crew/background-crew-tablet.jpg")
-            center/cover no-repeat;
+        background: url("/crew/background-crew-tablet.jpg") center/cover
+            no-repeat;
     }
 
     @media (min-width: 60rem) {
-        background: url("../../assets/crew/background-crew-desktop.jpg")
-            center/cover no-repeat;
+        background: url("/crew/background-crew-desktop.jpg") center/cover
+            no-repeat;
     }
 }
 

@@ -24,11 +24,11 @@ function Destination() {
                             <div className="dest__img__con">
                                 <picture className="dest__image">
                                     <source
-                                        srcSet={`src/${destination.images.webp}`}
+                                        srcSet={destination.images.webp}
                                         type="image/webp"
                                     />
                                     <img
-                                        src={`src/${destination.images.png}`}
+                                        src={destination.images.png}
                                         alt={`image of ${destination.name}`}
                                     />
                                 </picture>

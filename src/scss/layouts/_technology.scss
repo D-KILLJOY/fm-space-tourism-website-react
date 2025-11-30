@@ -3,16 +3,16 @@
 .technology {
     min-height: 100vh;
 
-    background: url("../../assets/technology/background-technology-mobile.jpg")
-        center/cover no-repeat;
+    background: url("/technology/background-technology-mobile.jpg") center/cover
+        no-repeat;
 
     @media (min-width: 45rem) {
-        background: url("../../assets/technology/background-technology-tablet.jpg")
+        background: url("/technology/background-technology-tablet.jpg")
             center/cover no-repeat;
     }
 
     @media (min-width: 60rem) {
-        background: url("../../assets/technology/background-technology-desktop.jpg")
+        background: url("/technology/background-technology-desktop.jpg")
             center/cover no-repeat;
     }
 }

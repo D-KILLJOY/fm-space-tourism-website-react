@@ -48,12 +48,12 @@ function Crew() {
                                 <article className="crew__img__con">
                                     <picture className="crew__img">
                                         <source
-                                            srcSet={`src/${crew.images.webp}`}
+                                            srcSet={crew.images.webp}
                                             type="image/webp"
                                         />
                                         <img
-                                            src={`src/${crew.images.png}`}
-                                            alt="Image of ${data.crew[crewIndex].name}"
+                                            src={crew.images.png}
+                                            alt={`Image of ${crew.name}`}
                                         />
                                     </picture>
                                 </article>

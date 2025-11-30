@@ -21,17 +21,17 @@ function Tecnology() {
                             <section className="tech__dets__con">
                                 <div className="tech__img__con">
                                     <img
-                                        src={`src/${technology.images.landscape.mobile}`}
+                                        src={technology.images.landscape.mobile}
                                         className="mobile__img"
                                         alt={`Image of a ${technology.name}`}
                                     />
                                     <img
-                                        src={`src/${technology.images.landscape.tablet}`}
+                                        src={technology.images.landscape.tablet}
                                         className="tablet__img"
                                         alt={`Image of a ${technology.name}`}
                                     />
                                     <img
-                                        src={`src${technology.images.portrait}`}
+                                        src={technology.images.portrait}
                                         className="desktop__img"
                                         alt={`Image of a ${technology.name}`}
                                     />

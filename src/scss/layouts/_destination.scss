@@ -3,16 +3,16 @@
 .destination {
     min-height: 100vh;
 
-    background: url("../../assets/destination/background-destination-mobile.jpg")
+    background: url("/destination/background-destination-mobile.jpg")
         center/cover no-repeat;
 
     @media (min-width: 45rem) {
-        background: url("../../assets/destination/background-destination-tablet.jpg")
+        background: url("/destination/background-destination-tablet.jpg")
             center/cover no-repeat;
     }
 
     @media (min-width: 60rem) {
-        background: url("../../assets/destination/background-destination-desktop.jpg")
+        background: url("/destination/background-destination-desktop.jpg")
             center/cover no-repeat;
     }
 }
